@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /img/
+Disallow: /uploads/
+Disallow: /droidv1/
+Disallow: /utils/
+Disallow: /captcha/
+Disallow: /test/
+Sitemap: http://www.formulma.tk/sitemap.xml
+

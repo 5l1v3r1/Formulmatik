@@ -1,0 +1,128 @@
+/* top elements */
+* { padding: 0; margin: 0;}
+
+body {
+	margin: 0; 	padding: 0;
+	font: normal .72em/1.5em 'Trebuchet MS', sans-serif;
+	color: #333;
+	background: #FFF url(http://static.formulma.tk/img/header.png) repeat-x;	
+	height: 100%;	
+}
+
+/* links */
+a:link {color:#72A545;text-decoration:none}
+a:visited {color:#72A545;text-decoration:none}
+a:hover {color:#72A545;text-decoration:none}
+a:active {color:#72A545;text-decoration:none} 
+
+/* headers */
+h1, h2, h3 {
+	font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #65944A;
+}
+h1 { font-size: 1.4em; }
+h2 { font-size: 1.2em; text-transform: uppercase;}
+h3 { font-size: 1.2em; }
+
+p, h1, h2, h3 {
+	margin: 10px 15px;
+}
+ul, ol {
+	margin: 10px 30px;
+	padding: 0 15px;	
+	color: #72A545;	
+}
+ul span, ol span {
+	color: #333;
+}
+
+/***********************
+	  LAYOUT
+************************/
+
+#header-content, #content, #footer-content {
+	width: 760px;
+}
+
+/* header */
+#header {
+	height: 100px;
+	text-align: left;
+	-moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+#header-content { 
+	position: relative;
+	margin: 0 auto; padding: 0;
+}
+#header-content #logo {
+	position: absolute;	
+   font: bold 4em 'Trebuchet Ms', Sans-serif; 
+	letter-spacing: -2px; 
+	color: #FFF;
+	margin: 0; padding: 0;
+	
+	/* change the values of left and top to adjust the position of the logo */
+	top: 0; left: 0px;
+}
+#header-content #slogan {
+	position: absolute;	
+	font: bold 1.1em 'Trebuchet Ms', Sans-serif;
+	text-transform: none;
+	color: #FFF;	
+	margin: 0; padding: 0;
+	
+	/* change the values of left and top to adjust the position of the slogan */
+	top: 55px; left: 40px;
+}
+
+/* header menu */
+#header-content ul {
+	position: absolute;
+	right: -5px; top: 15px;
+	font: bolder 1.3em 'Trebuchet MS', sans-serif;
+	color: #FFF;
+	list-style: none;
+	margin: 0; padding: 0;		
+}
+#header-content li {
+	display: inline;
+}
+#header-content li a {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #FFF;
+	background-color: #333;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
+#header-content li a:hover {
+	background: #65944A;
+	color: #FFF;
+}
+#header-content li a#current  {
+	background: #65944A;
+	color: #FFF;
+}
+
+
+/* Content */
+
+.content {
+	padding: 0;
+	margin: 0 auto;
+	margin-right: 3%;
+   margin-left: 3%;
+   font-family: 'Lobster', cursive;
+   margin-top: 15%;   
+}
+
+#print {
+float: right;
+position: relative;
+margin-bottom: 100px;
+}
